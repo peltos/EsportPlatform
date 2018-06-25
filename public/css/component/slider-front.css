@@ -1,0 +1,175 @@
+.slider__heading{
+    display:none;
+}
+
+.slick-initialized + .slider__heading{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: 0;
+    background: rgba(0,0,0,0.5);
+    padding: .666666em 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    top: 1.666em;
+    display: inline;
+}
+
+.slider-front {
+    display: none;
+    width: 100%;
+}
+
+.slider-front.slick-initialized,
+.slider-front .slider-item--background {
+    height: 40em;
+}
+
+.slider-front.slick-initialized {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 2.5em;
+    flex-wrap: wrap;
+    position: relative;
+}
+.slider-front .slick-list{
+    background: black;
+}
+
+.slider-front .slider-item {
+    position: relative;
+}
+
+.slider-front .slider-item--background__image {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.66;
+    transition: 200ms;
+    filter: blur(5px) sepia(100%) hue-rotate(1deg) saturate(200%) grayscale(100%);
+}
+
+.slider-front .slick-current .slider-item--background__image {
+    filter: blur(5px) sepia(100%) hue-rotate(1deg) saturate(200%) grayscale(0%);
+}
+
+.slider-front .slider-item--content img {
+    max-width: 20em;
+}
+
+.slider-front .slider-item--content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    transition: 200ms;
+    transform: scale(0.75);
+}
+.slider-front .slick-current .slider-item--content{
+    transform: scale(.9);
+
+}
+
+
+.slider-front .slider-item--content__date,
+.slider-front .slider-item--content__icon,
+.slider-front .slider-item--content__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-front .slider-item--content__icon .slider-item--content__icon__image {
+    width: 30vw;
+    max-width: 10em;
+}
+
+.slider-front .slider-item--content__date__time,
+.slider-front .slider-item--content__info {
+    color: white;
+    font-weight: 900;
+}
+
+.slider-front .slider-item--content__date {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.slider-front .slider-item--content__info__matchup__item__game {
+    font-size: 15px;
+}
+
+.slider-item--content__info__name,
+.slider-item--content__info__tournament {
+    color: var(--orange-color);
+    font-size: 1.25em;
+}
+
+.slider-front .slider-item--content__info__matchup {
+    display: flex;
+    align-items: center;
+}
+
+.slider-front .slider-item--content__info__matchup__vs {
+    margin: 0 .5em;
+}
+
+.slider-front .slider-item--content__info__matchup__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(150, 150, 150, 0.5);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.slider-front .slider-item--content__info__matchup__item .slider-item--content__info__matchup__item__img {
+    width: 100%;
+    max-width: 10em;
+}
+
+.slider-front .slider-item--content__info__tournament {
+    margin: 1em 0 0 0;
+}
+
+.slider-front .slider-item--content__info__tournamentname {
+    margin: 0;
+}
+
+.slider-front .slick-dots{
+    display: flex;
+    justify-content: center;
+    bottom: -2em;
+}
+.slider-front .slick-dots li{
+    background:white;
+    color:white;
+    border-radius: 50%;
+    text-indent: 9999px;
+}
+.slider-front .slick-dots li.slick-active{
+    background: var(--orange-color);
+    color: var(--orange-color);
+}
+
+@media only screen and (min-width: 768px) {
+    .slider-front.slick-initialized {
+        margin-top:3.5em;
+    }
+
+    .slick-initialized + .slider__heading{
+        top:2.125em;
+    }
+
+}

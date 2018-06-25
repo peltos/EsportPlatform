@@ -1,0 +1,15 @@
+.homepage-container .homepage-title {
+    color: var(--filterIcon-color);
+    border-bottom: 2px solid var(--orange-color);
+    line-height: 2;
+
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.homepage-container .homepage-title div a:hover {
+    color: var(--font-color);
+}
+.light-theme .homepage-container .homepage-title a:hover {
+    color: var(--orange-color);
+}

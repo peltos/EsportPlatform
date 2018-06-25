@@ -1,0 +1,108 @@
+.filterBar-container  {
+    font-family: "ubuntu";
+    align-items: center;
+    font-size: 13px;
+    border-radius: 2.5px;
+    background-color: var(--desc-color);
+    color: var(--nav-color);
+    padding: 0.1em .25em;
+    min-height: 30px;
+    font-weight: bold;
+}
+
+.filterBar-container .filterBar--inner {
+    display: inline-flex;
+}
+
+/* Filter Bar: Time Tab Box */
+.filterBar-container .dateFilter {
+    justify-content: flex-start;
+    margin-left: 10px;
+    align-items: center;
+    width: 100%;
+    transition: 400ms;
+}
+
+.filterBar-container .dateFilter .filter-icon {
+    color: var(--orange-color);
+    margin-right: -14px;
+    margin-left: -7px;
+}
+
+.filterBar-container .dateFilter .dateFilter--item {
+    padding: .57em 0.70em;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: var(--desc-color);
+    color: var(--font-color);
+}
+
+.filterBar-container .dateFilter .dateFilter--item:hover,
+.filterBar-container .dateFilter .dateFilter--item.active{
+    color: var(--orange-color);
+    border-bottom: 2px solid var(--orange-color);
+}
+ /**  Filter Bar: Games **/
+
+.filterBar-container .gameType {
+    margin-left: 4px;
+    border-radius: 10px;
+}
+
+.filterBar-container .dateFilter .img-hover.active,
+.filterBar-container .dateFilter .img-hover:hover {
+    transform: scale(1.17);
+}
+
+.filterBar-container .dateFilter .gameType.active,
+.filterBar-container .dateFilter .gameType:hover {
+    border-radius: 10px;
+    color: var(--font-color);
+    background: var(--orange-color);
+    border-bottom: 0px solid var(--orange-color);
+    transform: scale(0.97);
+}
+
+.filterBar-container .dateFilter .dateFilter--item .gameType {
+    padding: 10px 10px;
+}
+
+
+.gameType-container {
+    border: none;
+    max-height: 5px;
+    padding-top: 4px;
+}
+
+.gameType-container .gameFilter {
+}
+
+.gameType-container img {
+    max-width: 21px;
+    border: 1.5px solid var(--orange-color);
+    border-radius: 40px;
+}
+
+
+
+/* **************************************
+        MEDIA QUERIES / RESPONSIVE
+***************************************** */
+
+@media only screen and (min-width: 768px) {
+    .navigation-menu-icon {
+        display: none;
+    }
+    .navigation .navigation--item {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        padding:.25em 1em;
+    }
+
+}

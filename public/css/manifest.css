@@ -1,0 +1,28 @@
+/* Main css*/
+@import url("var.css");
+@import url("error.css");
+@import url("main.css");
+
+/* Components */
+@import url("component/slider-front.css");
+@import url("component/streamer-item.css");
+
+/* Pages */
+@import url("homepage.css");
+@import url("timeline.css");
+@import url("tournaments.css");
+@import url("bracket.css");
+@import url("streamers.css");
+@import url("filterbar.css");
+@import url("loading.css");
+@import url("signup.css");
+@import url("follow.css");
+@import url("homepage.css");
+@import url("signin.css");
+@import url("profile.css");
+@import url("teams.css");
+@import url("news.css");
+
+/* Slider*/
+@import url("component/slick.css");
+@import url("component/slick-theme.css");

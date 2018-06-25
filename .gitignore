@@ -1,0 +1,5 @@
+/nbproject/private/
+/vendor/
+/.idea/
+/application/config/config.php
+package-lock.json

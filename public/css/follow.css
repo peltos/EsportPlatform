@@ -1,0 +1,11 @@
+.follow-container {
+
+}
+.follow-container h3 {
+    color: var(--orange-color);
+    border-bottom: 1.2px solid var(--orange-color);
+    line-height: 1.4;
+}
+.follow-container .streamers--item:not(.online) {
+    display:none;
+}

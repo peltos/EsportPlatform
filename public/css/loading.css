@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+    .modal {
+        position: fixed;
+        z-index: -1;
+        top: calc(50% - 45%);
+        left: calc(50% - 45%);
+        height: 90%;
+        width: 90%;
+        background: var(--shade-opacity) url('../img/ajax-loader.gif') 50% 50% no-repeat;
+        transition: 400ms;
+        transition-timing-function: ease-in;
+        opacity:0;
+    }
+
+
+    body.loading .modal {
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+    }
+}

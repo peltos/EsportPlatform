@@ -1,0 +1,9 @@
+{
+  "name": "Esport-Platform",
+  "version": "1.0.0",
+  "devDependencies": {
+    "uglify-js": "~3.3.23",
+    "uglify-php": "~1.0.7",
+    "uglifycss": "~0.0.29"
+  }
+}

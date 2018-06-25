@@ -1,0 +1,13 @@
+.news-container{
+
+}
+.news-container .newstab{
+    width:100%;
+}
+.news-container .newstab iframe{
+    width:100%;
+}
+
+@media (min-width: 900px) {
+
+}

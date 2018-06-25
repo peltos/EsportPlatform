@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+/* ************************
+        MAIN VARIABLES
+*************************** */
+
+/*********** LIGHT MODE ***********/
+
+:root,
+:root body.light-theme {
+    --esport-color:      var(--action-hover); /* soft white */
+    --orange-color:     #f48c00; /* orange */
+    --primary-color:    #f48c00; /* orange */
+    --secondary-color:  #f9c57f; /* light orange */
+    --nav-color:        #f5f5f5; /* soft white */
+    --heading-color:    var(--primary-color); /* orange */
+    --font-color:       #333333; /* soft black */
+    --background:       #e6ecf0; /* solitude */
+    --background-shade: #dedede; /* lighter grey */
+    --action-color:     var(--primary-color); /* orange */
+    --action-hover:     #f5f5f5; /* soft white */
+    --filterIcon-color: #333333; /* soft black */
+    --desc-color:       #f5f5f5; /* soft white */
+    --linewire-color:   #565454; /* matterhorn grey */
+    --flag-color:       #f4a169; /* sandy brown */
+    --shade-opacity:    rgba(255,255,255,0.5); /* transparant white */
+    --buttonHover-color:var(--orange-color);
+    --buttonBg-color:     var(--background);
+    --fontCard-color:     var(--font-color);
+    --buttonBoxBg-color:#f5f5f5;
+    --Border-color:     #d5d5d5; /* Light Grey*/
+    --stream-background-color:     #333333;
+    --stream-font-color:     #f5f5f5;
+    --flag-text-color:    black;
+    --boxBorder-color:lightgrey;
+    --filter-border-width:  0px;
+    --input-border-width: 1.5px;
+    --submit-border:        2px;
+    --desc-border-width:    1px;
+}
+
+/*********** NIGHT MODE ***********/
+
+:root body.dark-theme {
+    --esport-color:      #f48c00; /* orange */
+    --orange-color:     #f48c00; /* orange */
+    --primary-color:    #243447; /* midnight */
+    --secondary-color:  #444444; /* dark grey */
+    --nav-color:        #f5f5f5; /* soft white */
+    --heading-color:    #f5f5f5; /* soft white */
+    --font-color:       #f5f5f5; /* soft white */
+    --background:       #141d26; /* black pearl */
+    --background-shade: #888888; /* light grey */
+    --action-color:     #f9c57f; /* light orange */
+    --action-hover:     #f5f5f5; /* soft white */
+    --filterIcon-color: #f48c00; /* orange */
+    --desc-color:       var(--primary-color);
+    --linewire-color:   rgba(213, 213, 213, 0.4);  /* light grey */
+    --flag-color:       #ce6c0c; /* chocolate */
+    --flag-text-color:  #e6ecf0; /* solitude */
+    --shade-opacity:    rgba(0,0,0,0.5); /* transparant black */
+    --buttonHover-color:   #222; /*Nero*/
+    --stream-background-color:     #333333;
+    --stream-font-color:     #f5f5f5;
+    --fontCard-color: lightgrey;
+    --Border-color:       black;
+    --boxBorder-color:    black;
+    --buttonBg-color:       var(--background);
+    --buttonBoxBg-color: var(--primary-color);
+    --filter-border-width: 0.5px;
+    --submit-border:         1px;
+    --input-border-width:  1.6px;
+    --desc-border-width:   1.4px;
+
+}

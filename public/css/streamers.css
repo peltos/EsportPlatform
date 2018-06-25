@@ -1,0 +1,6 @@
+
+.streamers-container h3 {
+    color: var(--orange-color);
+    border-bottom: 1.2px solid var(--orange-color);
+    line-height: 1.4;
+}
